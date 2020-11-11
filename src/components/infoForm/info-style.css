@@ -1,0 +1,43 @@
+.show-info {
+    background-color: #faeaf5;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .poke-img {
+    height: 100px;
+    width: 100px;
+  }
+  .img-back, .img-shiny-back {
+    display: none;
+  }
+  .img-front:hover, .img-shiny-front:hover {
+    display: none;
+  }
+  .img-front:hover ~ .img-back {
+    display: block;
+  }
+  .img-shiny-front:hover ~ .img-shiny-back {
+    display: block;
+  }
+  
+  .show-info .id {
+    font-family: 'arial', 'sams-serif';
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;
+  }
+  .show-info .name {
+    font-family: 'arial', 'sams-serif';
+    color: #313131;
+    text-transform: none;
+    font-size: 145%;
+    margin-bottom: 5px;
+  }
+  .types {
+    margin-top: 5px;
+  }
+  .types #label {
+    margin: 5px;
+  }

@@ -1,0 +1,11 @@
+.stats {
+    background-color: #faeaf5;
+    height: 200px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.stat-detail {
+    margin-left: 5px;
+}
